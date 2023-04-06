@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <img src= {logoRYM} alt='Logotipo Rick and Morty'/>
       <BrowserRouter>
-        <Routes>
+        <Routes> 
 
           <Route path= '/' element={<AllCharacters/>}></Route>
           <Route path= '/Character/:id' element={<OneCharacter/>}></Route>
